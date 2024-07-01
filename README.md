@@ -1,6 +1,6 @@
 # 一 环境配置
 
-（1）！！！原作者使用的pytorch1.11经实测已经无法正常安装，源代码中的requirements.txt已经不能正常使用
+（1）！！！原作者使用的pytorch1.11貌似已经无法安装，源代码中的requirements.txt已经不能正常使用
 
 （2）在终端依次键入以下指令来创建虚拟环境
 
@@ -33,6 +33,7 @@
 # 二 代码运行
 
 （1）在终端中打开文件夹nerf-pytorch或者使用cd命令进入文件夹nerf-pytorch
+
 （2）在终端中输入
 
 `python run_nerf.py --config configs/fern.txt`
